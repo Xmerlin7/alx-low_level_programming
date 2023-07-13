@@ -1,6 +1,7 @@
-#include <unistd>
+#include <unistd.h>
 /**
  * main - Entery point
+ * Description: A function with no printf or put
  * Return 1
  */
 int main(void)
