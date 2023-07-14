@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - Entry point
- * Description: Prints the alpahpet without q and e
- * return: 0
+ * main - Prints the alphabet without q & e.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -18,6 +19,6 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
-	putchar('n');
+	putchar('\n');
 	return (0);
 }
