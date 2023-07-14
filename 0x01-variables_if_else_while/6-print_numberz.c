@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - prints numbers from 0 to 9 using putchar fun.
  * return: 0
  */
 int main(void)
