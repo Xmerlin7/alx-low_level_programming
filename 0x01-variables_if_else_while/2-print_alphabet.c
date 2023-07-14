@@ -11,7 +11,6 @@ int main(void)
 	char ch = 'a';
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
 	while (ch <= 'z')
 	{
 		putchar(ch);
