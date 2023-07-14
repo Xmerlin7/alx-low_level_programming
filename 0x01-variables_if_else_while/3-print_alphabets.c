@@ -1,27 +1,21 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+
 /**
- * main - Entry point
- * description: Prints the alpahpet
- * return: 0
+ * main - Prints the alphabet in lowercase & uppercase.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-	char ch = 'a';
-	char CH = 'A';
+	char ch;
 
-	srand(time(0));
-	while (ch <= 'z')
-	{
+	for (ch = 'a'; lch <= 'z'; ch++)
 		putchar(ch);
-		ch++;
-	}
-	while (CH <= 'Z')
-	{
-		putchar(CH);
-		CH++;
-	}
+	for (ch = 'A'; lch <= 'Z'; ch++)
+		putchar(ch);
+
 	putchar('\n');
+
 	return (0);
 }
