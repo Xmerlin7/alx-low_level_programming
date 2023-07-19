@@ -11,7 +11,7 @@ void times_table(void)
 	for (f = 0; f < 10; f++)
 	{
 		_putchar(48);
-		for (m = 1; m < 10; m++)
+		for (l = 1; l < 10; l++)
 		{
 			p = f * l;
 			_putchar(',');
@@ -24,5 +24,4 @@ void times_table(void)
 				_putchar((p % 10) + 48);
 			}
 	}
-	return (0);
 }
