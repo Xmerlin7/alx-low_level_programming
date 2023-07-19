@@ -3,7 +3,7 @@
 /**
  *print_alphabet - using putchar it prints from a to z
  *
- *desc: The function uses nested loops
+ *description: The function uses nested loops to print 10 times
  *Return: Always 0
  *
  */
