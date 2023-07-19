@@ -9,7 +9,7 @@ int main(void)
 	int l;
 
 	k = i + j;
-	for (l = 3; l <= 98; i++)
+	for (l = 3; l <= 50; i++)
 	{
 		printf("%d, ", k);
 		i = j;
