@@ -6,7 +6,8 @@
 int main(void)
 {
 	int i = 0, j = 1 ,k;
-	
+	int l;
+
 	k = i + j;
 	for (l = 3; l <= 98; i++)
 	{
@@ -15,6 +16,7 @@ int main(void)
 		j = k;
 		k = i + j;
 	}
+	return (0);
 }
 		
 
