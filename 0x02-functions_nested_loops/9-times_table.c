@@ -25,4 +25,5 @@ void times_table(void)
 			}
 		}
 	}
+	_putchar(10);
 }
