@@ -18,8 +18,6 @@ void times_table(void)
 			_putchar(' ');
 			if (p <= 9)
 			{
-				_putchar(p + 48);
-				_putchar(' ');
 				_putchar(' ');
 			}
 			else
