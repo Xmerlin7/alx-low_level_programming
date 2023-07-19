@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- *print_alphabet - using putchar it prints from a to z
- *
- *description: The function uses nested loops to print 10 times
- *Return: Always 0
- *
- */
+*print_alphabet_x10 - prints alphabet letters
+* ten times
+*desc: The function uses loop to operate
+*Return: no return
+*/
 void print_alphabet_x10(void)
 {
 int ctr = 0;
