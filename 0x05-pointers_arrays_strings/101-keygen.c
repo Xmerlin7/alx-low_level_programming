@@ -18,6 +18,5 @@ int main(void)
 		i += c;
 		putchar(c);
 	}
-	putchar(2772 - x);
+	putchar(2772 - i);
 	return (0);
-}
