@@ -22,11 +22,11 @@
  */
 int _strlen(char *s)
 {
-        int ctr, i;
+	int ctr, i;
 
-        i = 0;
-        for (ctr = 0; s[ctr] != '\0'; ctr++)
-                i++;
+	i = 0;
+	for (ctr = 0; s[ctr] != '\0'; ctr++)
+	i++;
 
-        return (i);
+	return (i);
 }
