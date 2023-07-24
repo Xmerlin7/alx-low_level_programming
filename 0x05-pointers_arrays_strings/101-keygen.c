@@ -20,3 +20,4 @@ int main(void)
 	}
 	putchar(2772 - i);
 	return (0);
+}
