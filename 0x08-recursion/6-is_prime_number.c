@@ -30,5 +30,5 @@ int check_prime(int n, int s)
 		return (1);
 	else if (n % s == 0)
 		return (0);
-	return (is_prime(n, s - 1));
+	return (check_prime(n, s - 1));
 }
