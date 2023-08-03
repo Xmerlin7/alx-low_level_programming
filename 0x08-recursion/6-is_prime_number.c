@@ -2,9 +2,11 @@
 /**
 * is_prime_number - returns true if the number is prime
 *@n: the number to check
-*
+*@s: number to start checking from
 *Return: true if the number is prime
 */
+int check_prime(int n, int s);
+
 int is_prime_number(int n)
 {
 	int s = n / 2;
