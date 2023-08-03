@@ -3,8 +3,7 @@
 
 /**
 * factorial - gives the factorial of a number
-* @n:  number to find the factorial 
-*
+* @n:  number to find the factorial
 * Return: the factorial of the number
 */
 int factorial(int n)
@@ -17,6 +16,5 @@ int factorial(int n)
 	else if (n == 0)
 		return (1);
 
-	return (n * factorial(n - 1));
-	
+	return (n * factorial(n - 1));	
 }
