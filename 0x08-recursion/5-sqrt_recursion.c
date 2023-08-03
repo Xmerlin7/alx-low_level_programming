@@ -2,7 +2,7 @@
 /**
 * _sqrt_recursion - returns the natural square root of a number
 * @n: number to be used
-*@x: helper number
+*
 * Return: the square root of n
 */
 int square(int n, int x)
@@ -12,7 +12,7 @@ int _sqrt_recursion(int n)
 	return (square(n, 1));
 }
 /**
- * _sqrt - returns the square root of a number
+ * square - returns the square root of a number
  * @n: squared number
  * @x: helper number
  *
