@@ -10,7 +10,7 @@
 * space
 */
 char *_strdup(char *str) {
-	size_t size;
+	int size;
 	char *arr;
 	int i;
 	
