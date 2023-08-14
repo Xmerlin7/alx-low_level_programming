@@ -9,12 +9,14 @@
 */
 int _strlen(char *str)
 {
-	int len = 0;
+int len = 0;
+while (str)
+len++;
 
-	while (*srt++)
-		len++;
-	return (len);
+return (len);
 }
+
+
 /**
 *_strcopy - copy string pointed by src
 *into dest variable
@@ -24,13 +26,18 @@ int _strlen(char *str)
 */
 char *_strcopy(char *dest, char *src)
 {
-	int i = 0;
+int index = 0;
 
-	for (; src[i]; i++)
-		dest[i] = src[i];
-	dest[i] = '\0';
-	return (dest);
+for (; src[index] ; index++)
+dest[index] = src[index];
+
+dest[index] = '\0';
+return (dest);
 }
+
+
+
+
 /**
 *new_dog - creates a new dog
 *@name: name of new dog
@@ -39,6 +46,7 @@ char *_strcopy(char *dest, char *src)
 *Return: returns NULL in case
 *of failure
 */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *dog;
