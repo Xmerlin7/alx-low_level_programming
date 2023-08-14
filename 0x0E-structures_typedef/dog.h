@@ -1,20 +1,17 @@
-#ifndef DOG_H
-#define DOG_H
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
- *struct dog - a dog datatype
- *@name: name of the dog
- *@age: age of the dog
- *@owner: owner's name of the dog
- */
-
-struct dog {
-	char *name;
-	float age;
-	char *owner;
+*struct dog - a new type of data
+*representing a dog
+*@name: name of dog
+*@age: age of dog
+*@owner: owner's name
+*/
+struct dog
+{
+char *name;
+float age;
+char *owner;
 };
+
 
 /**
 *dog_t - Typedef for struct dog
@@ -29,4 +26,4 @@ void free_dog(dog_t *d);
 int _strlen(char *str);
 char *_strcopy(char *dest, char *src);
 
-#endif /*DOG_H*/ 
+#endif
