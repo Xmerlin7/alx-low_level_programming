@@ -7,7 +7,7 @@
  *struct dog - a dog datatype
  *@name: name of the dog
  *@age: age of the dog
- *@owner: ownerof the dog
+ *@owner: owner's name of the dog
  */
 
 struct dog {
