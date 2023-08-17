@@ -20,7 +20,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	}
 	va_start(app, n);
 	while (i--)
-		printf("%d%s", va_arg(app, int), 
+		printf("%d%s", va_arg(app, int),
 				i ? (separator ? separator : "") : "\n");
 	va_end(app);
 }
