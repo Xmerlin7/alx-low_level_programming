@@ -6,11 +6,11 @@
 *@n: number of parameter
 *
 *Return: 0 if n is null
-* or the sum of parameters 
+* or the sum of parameters
 */
 int sum_them_all(const unsigned int n, ...)
 {
-	int s = 0, i =n;
+	int s = 0, i = n;
 	va_list app;
 
 	if (!n)
