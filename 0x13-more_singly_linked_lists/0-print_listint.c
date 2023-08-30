@@ -14,7 +14,7 @@ size_t print_listint(const listint_t *h)
 	{
 		ctr++;
 		printf("%d\n", node->n);
-		node = node->nodelink;
+		node = node->nextlink;
 	}
 	return (ctr);
 }
