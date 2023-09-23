@@ -6,7 +6,7 @@ nclude "main.h"
 *
 * Return: 1 if the strings are equal, 0 otherwise.
 */
-int _strcmp(char *str1, char *str2)
+int _strcmp(char *s1, char *s2)
 {
 int i, ret;
 
