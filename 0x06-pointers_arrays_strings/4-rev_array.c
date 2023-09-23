@@ -6,18 +6,13 @@
 *
 *Description:  it reverses the order of characters in the string.
 */
-void rev_str(char *a, int n)
+void reverse_array(int *a, int n)
 {
-char tmp;
-int i = 0;
-int end = n - 1; /*due to '\0'*/
-
-while (i < end)
+int tmp, index;
+for (index = n - 1; index > n / 2; index--)
 {
-tmp = a[i];
-a[i] = a[end];
-a[end] = tmp;
-i++;
-end--;
+tmp = a[n - 1 - index];
+a[n - 1 - index] = a[index];
+a[index] = tmp;
 }
 }
