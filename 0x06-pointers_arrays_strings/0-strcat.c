@@ -3,7 +3,7 @@
 /**
  *_strcat -  the string pointed to by @src to
  *@dest: String that will be appended
- *@src: String to be concatenated 
+ *@src: String to be concatenated
  *
  * Return: returns poiner to @dest
  */
