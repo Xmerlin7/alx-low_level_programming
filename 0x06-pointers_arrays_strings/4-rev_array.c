@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*rev_str - reverse the order of the char in buff array
+*reverse_array - reverse the order of the char in buff array
 *@a : a string as its length as input.
 *@n: the length of the string to be reverses
 *
