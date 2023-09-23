@@ -5,7 +5,7 @@
  *@c: input to be checked
  * Return: 1 if upper, 0 if else
  */
-int _isupper(int c)
+int _isdigit(int c)
 {
 	if ((c >= 48) && (c <= 57))
 		return (1);
